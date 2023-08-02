@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-size: cover;
+    overflow: hidden;
+    background: url(images/kotryna-juskaite-bYBLk62HUSA-unsplash.jpg);
+}
+h2{
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 4px;
+    position: relative;
+}
+.clock span{
+    color: #fff;
+    background: black;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.clock .text{
+    font-size: 11px;
+    height: 50px;
+    background:rgb(10, 10, 10);
+    opacity: .9;
+    letter-spacing: 5px;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    background: darkred;
+    
+}
